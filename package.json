@@ -24,6 +24,7 @@
     "@ngrx/effects": "^14.3.3",
     "@ngrx/entity": "^14.3.3",
     "@ngrx/store": "^14.3.3",
+    "@ngrx/store-devtools": "^14.3.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -32,6 +33,7 @@
     "@angular-devkit/build-angular": "^14.2.12",
     "@angular/cli": "~14.2.12",
     "@angular/compiler-cli": "^14.2.0",
+    "@ngrx/schematics": "^14.3.2",
     "@types/jasmine": "~4.0.0",
     "express-mock-server": "^3.4.2",
     "jasmine-core": "~4.3.0",
