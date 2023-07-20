@@ -1,0 +1,5 @@
+{
+  "watch": ["utils/mock"],
+  "exec": "node ./utils/mock/server.js" ,
+  "ext": "js, json, ts, proto"
+}
