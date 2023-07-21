@@ -1,0 +1,3 @@
+<div class="container"><h1>Add a book</h1></div>
+<div class="container"><app-create [form]="form"></app-create></div>
+<div class="container"><button mat-raised-button [disabled]="!form.touched || !form.valid" color="primary" (click)="onSubmit($event)">Submit</button></div>
