@@ -16,7 +16,10 @@ export class BooksComponentStore extends ComponentStore<BooksComponentState> {
   }
 
   readonly add = this.updater((state, book: Book) => {
-    return booksAdapter.addOne(book, state);
+    return booksAdapter.addOne({
+      ...book,
+      id: Math.floor(Math.random() * 1000),
+    }, state);
   });
 
   readonly update = this.updater((state, update: Update<Book>) => {
